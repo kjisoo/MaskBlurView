@@ -16,7 +16,7 @@ let path = UIBezierPath(rect: RectViewSize)
 path.append(UIBezierPath(rect: RectWithoutBlur))
 
 let maskBlurView = MaskBlurView(frame: RectViewSize)
-maskBlurView.changeEffect(from: .dark)
+maskBlurView.changeEffect(to: .dark)
 maskBlurView.apply(with: path)
 self.view.addSubview(maskBlurView)
 ```

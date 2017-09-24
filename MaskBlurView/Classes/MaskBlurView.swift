@@ -12,7 +12,7 @@ open class MaskBlurView: UIVisualEffectView {
   /**
    Change BlurEffectStyle.
    */
-  open func changeEffect(from blurStyle: UIBlurEffectStyle) {
+  open func changeEffect(to blurStyle: UIBlurEffectStyle) {
     self.effect = UIBlurEffect(style: blurStyle)
   }
 

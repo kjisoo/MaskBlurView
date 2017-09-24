@@ -21,7 +21,7 @@ class ViewController: UIViewController {
 
     let maskBlurView = MaskBlurView()
     maskBlurView.frame = self.view.frame
-    maskBlurView.changeEffect(from: .dark)
+    maskBlurView.changeEffect(to: .dark)
     maskBlurView.apply(with: path)
     self.view.addSubview(maskBlurView)
   }
