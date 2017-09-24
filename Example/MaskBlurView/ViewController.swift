@@ -7,18 +7,22 @@
 //
 
 import UIKit
+import MaskBlurView
 
 class ViewController: UIViewController {
+  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+    let path = UIBezierPath(rect: self.view.frame)
+    path.append(UIBezierPath(rect: CGRect(x: self.view.frame.width/2 - 100,
+                                          y: self.view.frame.height/2 - 100,
+                                          width: 200,
+                                          height: 200)))
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    let maskBlurView = MaskBlurView()
+    maskBlurView.frame = self.view.frame
+    maskBlurView.changeEffect(from: .dark)
+    maskBlurView.apply(with: path)
+    self.view.addSubview(maskBlurView)
+  }
 }
-

@@ -1,0 +1,6 @@
+framework module MaskBlurView {
+  umbrella header "MaskBlurView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "MaskBlurView",
+  "version": "0.1.0",
+  "summary": "A short description of MaskBlurView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/buzzni-sonny/MaskBlurView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "buzzni-sonny": "sonny@buzzni.com"
+  },
+  "source": {
+    "git": "https://github.com/buzzni-sonny/MaskBlurView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MaskBlurView/Classes/**/*"
+}

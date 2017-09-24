@@ -1,0 +1,6 @@
+framework module Pods_MaskBlurView_Example {
+  umbrella header "Pods-MaskBlurView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

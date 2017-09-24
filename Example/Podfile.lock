@@ -1,0 +1,16 @@
+PODS:
+  - MaskBlurView (0.1.0)
+
+DEPENDENCIES:
+  - MaskBlurView (from `../`)
+
+EXTERNAL SOURCES:
+  MaskBlurView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MaskBlurView: b031fa472d3215b8262abac47c393535ea89c0f0
+
+PODFILE CHECKSUM: 16b0561da0a27e07d1bca9b187fcdaf2c68ebab8
+
+COCOAPODS: 1.2.1
