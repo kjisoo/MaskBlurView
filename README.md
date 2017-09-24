@@ -8,6 +8,11 @@
 
 ![alt tag](https://github.com/kjisoo/MaskBlurView/blob/master/Screens/screen1.png)
 
+It is used to apply both background blur and mask layer simultaneously.
+iOS 10 requires that you use the mask view for this.
+On iOS 9 and 11, use the layer's mask.
+MaskBlurView uses the appropriate method for the version.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
